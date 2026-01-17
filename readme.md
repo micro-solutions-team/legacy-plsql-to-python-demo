@@ -48,10 +48,12 @@ POST http://localhost:8000/seed
 Evaluate:
 
 GET http://localhost:8000/evaluate/1
+```
+
 
 The Transformation
 Legacy (PL/SQL Example):
-
+```bash
 SQL
 IF v_usage > 600 THEN
    o_eligible := 'N';
